@@ -1,0 +1,9 @@
+#top-image {
+    background:url('../img/1.jpg') -25px -50px;
+    position:fixed ;
+    top:0;
+    width:100%;
+    z-index:0;
+      height:100%;
+      background-size: calc(100% + 50px);
+}
