@@ -1,9 +1,77 @@
-#top-image {
-    background:url('../img/1.jpg') -25px -50px;
-    position:fixed ;
-    top:0;
-    width:100%;
-    z-index:0;
-      height:100%;
-      background-size: calc(100% + 50px);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+}
+#background-img{
+    background:url('../img/1.jpg');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+header{
+  margin: 0 auto;
+  position: relative;
+}
+header img{
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 28%;
+}
+#particles-js {
+  background: cornflowerblue;
+}
+
+.titulo-seccion{
+  padding: 30px 0px;
+  color: #7CB54B;
+  font-size: 24px;
+}
+.band{
+  padding: 40px 0px;
+}
+
