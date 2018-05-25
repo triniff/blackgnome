@@ -78,11 +78,20 @@ h4{
 .band p{
   color: rgb(141, 0, 0);
 }
+.imagen-banda img{
+  width: 100%;
+  padding-right: 24px;
+}
+.imagen-banda, .texto-banda{
+  display: inline-block;
+  width: 49%;
+}
 /*SECCION VIDEOS*/
 .videos{
   background-color: #1A1A1A;
-  height: 470px;
-  padding: 40px 0px;
+  height: auto;
+  padding: 40px 0px 80px; 
+  min-height: 450px;
 }
 .videos iframe:nth-child(2){
   margin: 0px 24px;
@@ -150,4 +159,43 @@ footer{
   }	
   .snow:before{
     opacity: 0.2;
+  }
+
+  /*RESPONSIVE*/
+  @media (max-width:1200px){
+    .videos iframe:nth-child(3){
+      display: none;
+    }
+    .videos iframe{
+      min-width: 47%;
+      
+    }
+  }
+  @media(max-width:993px){
+    .videos iframe:nth-child(2){
+      display: none;
+    }
+    .videos iframe{
+      min-width: 100%;
+      height: 400px;
+    }
+    .videos{
+      min-height: 650px;
+    }
+  }
+  @media (max-width: 800px){
+    header img{
+      width: 60%;
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      margin: 0 auto;
+    }
+    .imagen-banda img{
+      display: none;
+    }
+    .imagen-banda, .texto-banda{
+      display: block;
+      width: 100%;
+    }
   }
