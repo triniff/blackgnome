@@ -69,14 +69,14 @@ h4{
   font-size: 24px;
 }
 .titulo-seccion{
-  color: rgb(141, 0, 0);
+  color: #4F4F4F;
 }
 .band{
   padding: 40px 0px;
 }
 
 .band p{
-  color: rgb(141, 0, 0);
+  color: #828282;
 }
 .imagen-banda img{
   width: 100%;
@@ -97,7 +97,7 @@ h4{
   margin: 0px 24px;
 }
 .videos h4{
-  color: rgb(209, 209, 209);
+  color: #d1d1d1;
 }
 /*FOOTER*/
 footer{
@@ -113,7 +113,7 @@ footer{
 
 .icons i{
   font-size: 30px;
-  color: rgb(141, 0, 0);
+  color: #828282;
   padding: 0px 24px;
 }
 
@@ -126,7 +126,7 @@ footer{
   text-decoration: none;
 }
 .contactanos p{
-  color: rgb(141, 0, 0);
+  color: #4F4F4F;
   display: inline-block;
   margin-left: 20px;
   font-size: 14px;
@@ -179,9 +179,6 @@ footer{
       min-width: 100%;
       height: 400px;
     }
-    .videos{
-      /* min-height: 650px; */
-    }
   }
   @media (max-width: 880px){
     header img{
@@ -198,7 +195,6 @@ footer{
     }
     footer{
       display: block !important;
-      /*padding: 0px !important;*/
     }
     .icons, .contactanos{
       width: 100% !important;
@@ -208,10 +204,6 @@ footer{
     }
     .icons i{
       font-size: 35px;
-      color: rgb(83, 83, 83);
-    }
-    .contactanos p{
-      color: rgb(83, 83, 83);
     }
     .imagen-banda img{
       display: none;
