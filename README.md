@@ -1,7 +1,7 @@
 
 ## Getting Started
 ```
-git clone https://github.com/bootpack/bootpack.git
+git clone https://github.com/triniff/blackgnome.git
 npm install
 npm run build
 npm start
