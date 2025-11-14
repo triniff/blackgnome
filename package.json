@@ -4,10 +4,10 @@
   "version": "2.0.0",
   "author": "triniff",
   "description": "Black Gnome Band - Modern Website",
-  "homepage": "https://github.com/triniff/blackgnome#readme",
+  "homepage": "https://github.com/ordenador/blackgnome#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/triniff/blackgnome.git"
+    "url": "git+https://github.com/ordenador/blackgnome.git"
   },
   "keywords": [
     "blackgnome",

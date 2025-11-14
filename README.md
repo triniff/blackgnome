@@ -15,7 +15,7 @@ Sitio web oficial de la banda BlackGnome.
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/triniff/blackgnome.git
+git clone https://github.com/ordenador/blackgnome.git
 
 # Instalar dependencias
 npm install

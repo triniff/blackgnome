@@ -4,7 +4,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://triniff.github.io',
+  site: 'https://ordenador.github.io',
   base: '/blackgnome',
   build: {
     assets: 'assets',
