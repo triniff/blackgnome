@@ -1,0 +1,52 @@
+{
+  "name": "blackgnome",
+  "type": "module",
+  "version": "2.0.0",
+  "author": "triniff",
+  "description": "Black Gnome Band - Modern Website",
+  "homepage": "https://github.com/triniff/blackgnome#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/triniff/blackgnome.git"
+  },
+  "keywords": [
+    "blackgnome",
+    "band",
+    "astro",
+    "tailwind"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "lint:fix": "eslint . --fix && stylelint \"src/**/*.css\" --fix",
+    "type-check": "astro check",
+    "test": "npm run format:check && npm run lint && npm run type-check"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.2",
+    "astro": "^4.16.18",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-astro": "^1.3.2",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}

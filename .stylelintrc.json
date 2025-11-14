@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen", "layer"]
+      }
+    ],
+    "selector-class-pattern": null,
+    "custom-property-pattern": null
+  },
+  "ignoreFiles": ["old-webpack-setup/**/*", "dist/**/*", ".astro/**/*"]
+}
