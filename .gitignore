@@ -57,5 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
-# Webpack output directory
+# Build output directories
 dist/
+.astro/
+
+# Old webpack setup (backup)
+old-webpack-setup/

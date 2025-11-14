@@ -1,0 +1,7 @@
+dist/
+.astro/
+node_modules/
+old-webpack-setup/
+package-lock.json
+*.min.js
+*.min.css
